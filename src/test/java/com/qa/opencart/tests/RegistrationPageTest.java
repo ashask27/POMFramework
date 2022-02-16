@@ -40,7 +40,7 @@ public class RegistrationPageTest extends BaseTest{
 	}
 	
 	
-	@Test
+	@Test (enabled=false)
 	public void regPageLinkTest() {
 		String link = registerPage.getRegPageUrl();
 		System.out.println(link);	
